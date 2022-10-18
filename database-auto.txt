@@ -1,0 +1,31 @@
+***Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario***
+
+MACCHINE (nuove e usate)
+
+id            | NOTNULL - INT - PRIMARY_KEY - AUTO_INCREMENT
+marca         | NOTNULL - VARCHAR(20) - UNIQUE
+modello       | NOTNULL - VARCHAR(15) 
+prezzo        | NOTNULL - DECIMAL(10,D)
+allestimento  | NOTNULL - VARCHAR(15)
+targa         | NOTNULL - VARCHAR(7) 
+carrozzeria   | NOTNULL - TINYINT
+alimentazione | NOTNULL - VARCHAR(15)
+cilindrata    | NOTNULL - SMALL
+potenza       | NOTNULL - SMALL
+cambio        | NOTNULL - VARCHAR(15) 
+EURO          | NOTNULL - TINYINT
+KM            | NOTNULL - SMALL
+anno          | NOTNULL - DATE
+n°proprietari | NOTNULL - TINYINT
+paese         | NOTNULL - VARCHAR(15)
+città         | NOTNULL - VARCHAR(15)
+colore        | NOTNULL - VARCHAR(15)
+condizioni    | NOTNULL - VARCHAR(15)
+revisione     | NOTNULL - DATE
+tagliando     | NOTNULL - DATE
+usura gomme   | NOTNULL - TINYINT
+
+
+
+
+
